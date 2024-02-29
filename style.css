@@ -1,0 +1,66 @@
+.rectangle{
+    background-color: #FFFFFF;
+    max-width: 320px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.burger, .Group, .search{
+    background-color: #FFFFFF;
+    border: none;
+}
+.search{
+    margin-top: 23px;
+    margin-left: 90px;
+}
+.burger:hover, .search:hover{
+    border-radius: 50%;
+    background: radial-gradient(red, blue);
+}
+.mainMenu{
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+    border: none;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.menu_1, .menu_2, .menu_3, .menu_4,
+.menu_5, .menu_6, .menu_7, .menu_8{
+    border: none;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin: 10px 10px;
+}
+.menu_1:focus, .menu_2:focus, .menu_3:focus, .menu_4:focus,
+.menu_5:focus, .menu_6:focus, .menu_7:focus, .menu_8:focus{
+    border-left:2px solid aqua;
+}
+.copyright_button{
+    margin-top: 200px;
+}
+.phone, .message, .contacts{
+    border: none;
+    background-color: #FFFFFF;
+}
+.phone:hover, .message:hover, .contacts:hover{
+    border-radius: 50%;
+    background: radial-gradient(red, blue);
+}
+.copyright_button, .e-mail, .phoneNumber, .language{
+    margin-left: 20px
+}
+.ru, .en, .ch{
+    border: none;
+    background-color: #FFFFFF;
+}
+.ru:focus, .en:focus, .ch:focus{
+    color: darkgray;
+}
