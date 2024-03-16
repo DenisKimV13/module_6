@@ -1,1 +1,1 @@
-https://github.com/DenisKimV13/module_6.git
+https://deniskimv13.github.io/module_6/
